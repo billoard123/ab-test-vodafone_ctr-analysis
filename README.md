@@ -1,12 +1,12 @@
-📌 A/B Testing Vodafone CTA: "Read More" vs. "Find Your SIM-Only Plan"
+A/B Test for Vodafone "Read more" vs "Find your Sim-only plan"
 
-🎯 Objective
-This project conducts an A/B test to evaluate whether changing Vodafone's call-to-action (CTA) button text from "Read More" to "Find Your SIM-Only Plan" leads to a statistically and practically significant improvement in the Click-Through Rate (CTR). The goal was to achieve at least a 10% increase in CTR, ultimately driving higher revenue through improved user engagement.
+**Objective**
+I wanted to find out if changing Vodafone's CTA from "Read more" to "Find your Sim-only plan" would lead to a minimum of a 10% increase in the CTR to compare and contrast the two approaches and to identify the better one. I looked for clear statistical significance and practical evidence to make an informed final decision on implementing the change.
 
-🛠 Tech Stack & Methodology
-Python: Pandas, NumPy, and SciPy for data processing and analysis.
-Z-Test: Applied for statistical significance at a 5% significance level (α = 0.05) to determine if the observed CTR increase is likely driven by the CTA change, not random fluctuations.
-95% Confidence Interval (CI): To estimate the true range of CTR improvement, ensuring that the results are both statistically valid and practically meaningful.
+**Methodology and TechStack**
+**Python** - Pandas, NumPy and SciPy for data processing
+**Hypothesis test/Z-test** -  I set the parameter alpha(α) at a 5% significance to determine if the observed CTR increase is likely to be driven by the CTA change, not by random fluctuation 
+**Confidence interval (CI)** - The CI was 95%, to estimate the true range of CTR improvement, ensuring that the results are both statistically valid and practically meaningful.
 
 Visualizations: Seaborn & Matplotlib were used to present the results, including rejection regions and standard normal distributions, making the statistical evidence clear.
 📊 Results & Interpretation
@@ -19,7 +19,7 @@ The sample showed a great representation of the population, ensuring the results
 The new CTA, "Find Your SIM-Only Plan," achieved a statistically significant increase in CTR, with the 95% confidence interval confirming that the improvement is both real and meaningful.
 With a Minimal Detectable Effect (MDE) of 0.1, the difference between the control and experimental groups was not only statistically significant but also practically impactful, indicating that the CTR boost will translate into tangible outcomes, such as increased sales and higher revenue.
 
-🚀 Business Implications
+Business Implications
 Vodafone should be motivated to implement the new CTA "Find Your SIM-Only Plan" across its platform, as the results show clear, measurable benefits. This change isn’t just statistically significant; it is practically significant, meaning it will lead to higher CTR, greater user engagement, and ultimately, higher revenue.
 
 By adopting this CTA, Vodafone can expect a boost in conversions, driving more customers to take the next steps, such as signing up for SIM-only plans. This increase in user interaction will likely have a direct, positive impact on revenue generation.
