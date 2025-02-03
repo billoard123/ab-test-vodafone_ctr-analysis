@@ -1,7 +1,7 @@
-A/B Test for Vodafone "Read more" vs "Find your Sim-only plan"
+**A/B Test for Vodafone "Read more" vs "Find your Sim-only plan"**
 
-**Objective**
-I wanted to find out if changing Vodafone's CTA from "Read more" to "Find your Sim-only plan" would lead to a minimum of a 10% increase in the CTR to compare and contrast the two approaches and to identify the better one. I looked for clear statistical significance and practical evidence to make an informed final decision on implementing the change.
+**Objective-**
+I wanted to find out if changing Vodafone's CTA from "Read more" to "Find your Sim-only plan" would lead to a minimum of a 10% increase in the CTR to compare and contrast the two approaches and to identify the better one. I looked for clear statistical significance and practical evidence to make an informed final decision on implementing the change. 20000 people were split into two groups, The control group, which viewed the "Read more" button and the Experimental group, which viewed the "Find your Sim-only plan" button
 
 **Methodology and TechStack**
 **Python** - Pandas, NumPy and SciPy for data processing
